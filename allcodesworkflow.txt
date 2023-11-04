@@ -12,7 +12,13 @@ build the front-end
 
 cd client
 
-npm init
+npm init -y
+
+npm install hardhat
 
 npx hardhat, select "Javascript" and yes, yes
+
+npm install --save-dev "hardhat@^2.19.0" "@nomicfoundation/hardhat-toolbox@^3.0.0" ethers chai
+
+npx hardhat test(this should test the default smart contract)
 
