@@ -19,6 +19,21 @@ npm install hardhat
 npx hardhat, select "Javascript" and yes, yes
 
 npm install --save-dev "hardhat@^2.19.0" "@nomicfoundation/hardhat-toolbox@^3.0.0" ethers chai
+(make sure you install stable version of ethers and other packages, I installed npm i -S ethers@5.7.2 and some errors were gone)
+(also, a new updated is that you only need to install hardhat and hardhat-toolbox, hardhat-toolbox contains all needed packages like chai, waffle, etc. for testing)
+
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+
+npx hardhat compile
 
 npx hardhat test(this should test the default smart contract)
+
+npx hardhat run scripts/deploy.js --network goerli
+
+
+Deployment steps:
+
+1) under client folder run "npm run build"
+
+2) 
 
