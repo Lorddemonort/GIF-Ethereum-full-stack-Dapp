@@ -1,0 +1,24 @@
+create "client" and "smart_contract" folders under root
+
+npm create vite@latest
+
+create "components" under "src" for Navbar, Footer, Loader, and website sections and index.js for routing export
+
+install tailwind
+
+install any dependencies/packages
+
+build the front-end
+
+cd client
+
+npm init -y
+
+npm install hardhat
+
+npx hardhat, select "Javascript" and yes, yes
+
+npm install --save-dev "hardhat@^2.19.0" "@nomicfoundation/hardhat-toolbox@^3.0.0" ethers chai
+
+npx hardhat test(this should test the default smart contract)
+
