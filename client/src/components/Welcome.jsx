@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
           <div className="flex flex-1 justify-start flex-col mf:mr-10">
             <h1 className="text-white text-3xl sm:text-5xl text-gradient py-1">
-              Send Crypto <br />across the world
+              Send Crypto <br />across the world effortlessly
             </h1>
             <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
               Explore the crypto world. Buy, sell and transfer crypto easily on Krypt.io
